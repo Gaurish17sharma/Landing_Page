@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    flex-flow: column;
+}
+  
+.hero .top_bar {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    margin-left: 60px;
+    padding: 20px;
+    display: flex;
+    flex-flow: row;
+    flex: 1 1 auto;
+    justify-content: space-between;
+}
+
+.hero .top_bar .heading {
+    display: flex;
+    margin: 24px;
+    flex: 1 1 auto;
+    color: white;
+}
+
+.hero .top_bar .links {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+    color: white;
+}
+
+.hero .top_bar .links li{
+    color:white;
+}
+
+.hero .Introduction {
+    margin: 60px;
+    padding: 20px;
+    display: flex;
+    flex-flow: row;
+    flex: 1 1 auto;
+    color:white;
+}
+
+.hero .Introduction div {
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    margin:20px;
+    font-size: 20px;
+}
+
+.hero .Introduction div h1 {
+    margin-bottom: 20px;
+}
+
+
+
+.hero .Introduction div button {
+    align-self: flex-start;
+    padding: 5px 10px;
+    background-color: blue;
+    margin-top: 20px;
+    color:white;
+}
+
+
+.hero .img {
+    display: flex;
+    flex: 1 1 auto;
+    justify-self: center;
+    text-align: center;
+    background-color: gray;
+}
+
+.information {
+    display: flex;
+    flex-flow: column;
+    flex: 1 1 auto;
+    align-items: center;
+    margin: 80px;
+    padding: 20px;
+    color:black;
+}
+
+.information div,
+.information h1 {
+    padding: 20px;
+    display: flex;
+    flex-flow: row;
+    align-self: stretch;
+    justify-content: space-around;
+}
+
+.information .info_images img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.information h1{
+    color:black;
+}
+
+.information .info_text{
+    color:black;
+}
+
+.Quote {
+    display: flex;
+    flex-flow: column;
+    flex: 1 1 auto;
+    align-items: center;
+    padding: 100px 200px 100px 200px;
+    background-color: #e5e7eb;
+}
+
+.Quote h1 {
+    align-self: flex-end;
+    font-style: italic;
+}
+
+.Quote h3{
+    align-self: flex-end;
+}
+  
+.Sign_up {
+    display: flex;
+    flex: 1 1 auto;
+    margin: 80px;
+    padding: 60px 100px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 20px;
+}
+
+.Sign_up div{
+    padding: 40px;
+    flex: 1 1 auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.Sign_up .left{
+    padding: 5px;
+    align-items: flex-start;
+    background-color: #3882f6;
+}
+
+.Sign_up button{
+    padding: 5px 25px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+  
+footer{
+    padding: 30px;
+    text-align: center;
+    background-color: #1f2937;
+    color:white;
+}
+
+a{
+    color:white;
+}
+
+
